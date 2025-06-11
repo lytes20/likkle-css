@@ -4,15 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Likkle css</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <input id="copyMe" value="https://github.com/lytes20/likkle-css.git" />
-      <button
-        onclick="navigator.clipboard.writeText(copyMe.value); this.innerText = 'Copied!'"
-      >
-        Copy
-      </button>
-    </div>
+    <main>
+      <!-- Copy text using a copy button -->
+      <div>
+        <input id="copyMe" value="https://github.com/lytes20/likkle-css.git" />
+        <button
+          onclick="navigator.clipboard.writeText(copyMe.value); this.innerText = 'Copied!'"
+        >
+          Copy
+        </button>
+      </div>
+      <br />
+
+      <!-- Display flex -->
+      <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </div>
+    </main>
   </body>
 </html>

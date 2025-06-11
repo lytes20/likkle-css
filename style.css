@@ -1,4 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+.flex > div {
+  border: 1px solid black;
 }
